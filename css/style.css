@@ -1,0 +1,505 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width: 1140px;
+    margin:0px auto;
+} 
+.header{
+    width: 100%;
+    float: left;
+}   
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img {
+    height: 52px;
+    width: 227px;
+    display: block;
+}
+.menu{
+    width: 55%;
+    float: left;
+}
+ nav ul{
+    list-style: none;
+}
+nav ul li{
+         display: inline-block;
+    margin: 14px 65px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.social{
+    width: 25%;
+    float: left;
+}
+.social ul{
+    list-style: none;
+
+}
+.social ul li{
+        text-decoration: none;
+    display: inline-block;
+    margin: 14px 2px;
+}
+   
+.fa.fa-facebook{
+    background-color: #3B5998;
+    padding: 4px 8px;
+    color: white;
+}
+.fa.fa-twitter{
+    background-color: #1B95E0;
+    padding: 4px 8px;
+    color: white;
+
+}
+.fa.fa-linkedin{
+    background-color: #006097;
+    padding: 4px 8px;
+    color: white;
+
+}
+.fa.fa-google-plus{
+    background-color: #DF090B;
+    padding: 4px 8px;
+    color: white;
+}
+.fa.fa-sign-in {
+    margin: 0px 10px;
+    color: black;
+}
+.backpic{
+      background-image: url(../img/gg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      float: left;
+}
+.loan{
+     width: 450px;
+    padding: 22px 0px;
+    background-color: #8080807a;
+    margin: 50px 100px;
+}
+
+.loan h2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.loan p{
+    text-align: center;
+    font-size: 16px;
+}
+.loan ul{
+      list-style: none;
+}
+.loan ul li{
+    display: inline-block;
+    background-color: green;
+    margin: 30px 23px;
+    padding: 10px 28px;
+}
+           
+.loan ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.fourpart{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.concept{
+    width: 23%;
+    margin-right: 2%;
+    float: left;    
+}
+.concept ul{
+       list-style: none;
+}
+.concept h2{
+      font-size: 20px;
+    margin: 10px 45px;
+}
+.concept button {
+    background-color: green;
+    border: none;
+    padding: 5px 9px;
+    margin: 20px 55px;
+}
+.concept button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.local-loan {
+    width: 23%;
+    margin-right: 2%;
+    float: left;    
+}
+.local-loan ul{
+        list-style: none;
+}
+.local-loan h2{
+      font-size: 20px;
+    margin: 10px 45px;
+}
+
+.local-loan button {
+    background-color: green;
+    border: none;
+    padding: 5px 9px;
+    margin: 20px 55px;
+}
+.local-loan button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.finance{
+      width: 23%;
+    margin-right: 2%;
+    float: left;    
+}
+.finance ul{
+       list-style: none;
+}
+.finance h2{
+    font-size: 20px;
+    margin: 10px 45px;
+}
+.finance button {
+    background-color: green;
+    border: none;
+    padding: 5px 9px;
+    margin: 20px 55px;
+}
+.finance button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.sign{
+     width: 23%;
+    margin-right: 2%;
+    float: left;    
+}
+.sign ul{
+       list-style: none;
+}
+
+.sign h2{
+      font-size: 20px;
+    margin: 10px 72px;
+}
+.sign button{
+    background-color: green;
+    border: none;
+    padding: 5px 9px;
+    margin: 20px 65px;
+}
+.sign button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.fa.fa-check{
+    background-color: green;
+    padding: 10px 10px;
+    margin: 0px 86px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
+
+.fa.fa-map-marker{
+    background-color: green;
+    padding: 10px 13px;
+    margin: 0px 86px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
+.fa.fa-money{
+    background-color: green;
+    padding: 10px 10px;
+    margin: 0px 86px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
+.fa.fa-user-plus{
+    background-color: green;
+    padding: 10px 10px;
+    margin: 0px 86px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
+.money{
+    width: 100%;
+    float:left;
+}
+.invest{
+     width: 40%;
+    background-color: #B8CCD5;
+    float: left;
+    padding: 15px 0px;
+    margin: 0px 60px; 
+}
+.invest h2{
+      margin: 10px 120px;
+}
+.return{
+        width: 40%;
+    background-color: #B8CCD5;
+    float: left;
+    padding: 15px 0px;
+    margin: 0px 54px;
+}
+.return h2{
+         margin: 10px 120px;
+}
+.invest button{
+     display: inline-block;
+    border: none;
+    padding: 5px 25px;
+    margin: 1px 60px;
+    background: #7DC545;
+}
+.invest button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.return button{
+    display: inline-block;
+    border: none;
+    padding: 5px 25px;
+    margin: 1px 60px;
+    background: #7DC545;
+}
+.return button a{
+     text-decoration: none;
+    color: white;
+    font-size: 15px;   
+}
+.fa.fa-stop-circle-o{
+    background-color:#226B36;
+    border-radius: 7px 7px;
+    margin: 0px 10px;
+
+}
+.invest p{
+    margin: 10px 50px;
+}
+.return p{
+    margin:10px 50px;
+}
+.blog{
+    width: 100%;
+    float: left;
+}
+.blog p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding:15px 0px;
+    color: #3F616B;
+}
+.entry{
+    width: 100%;
+    float: left;
+}
+.entreprenuer{
+     width: 45%;
+    float: left;
+    margin: 0% 5%;
+}
+.entreprenuer p {
+         padding-top: 5px;
+}
+
+.entreprenuer button {
+    border: none;
+    background: #7DC545;
+    margin: 10px 0px;
+    padding: 4px 8px;
+}
+.entreprenuer button a{
+      text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.platform{
+     width: 45%;
+    float: left;
+    }
+.platform p {
+     padding-top: 30px;
+}
+.platform button {
+    border: none;
+    background: #7DC545;
+    margin: 10px 0px;
+    padding: 4px 8px;
+}
+.platform button a{
+      text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.lent-home{
+    width: 100%;
+    float: left;
+
+}
+.lent {
+    background-color: #DCDCDC;
+    padding: 25px 0px;
+}
+.lent p{
+    text-align: center;
+}
+.lent ul{
+    list-style: none;
+}
+.lent ul li{
+          text-align: center;
+}
+.lent ul li a{
+ color: black;
+}
+.trust-home{
+    width: 100%;
+    float: left;
+}
+.pilot{
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+.pilot h4 {
+  display: inline;
+  font-size: 25px;
+}
+.pilot ul{
+    list-style: none;
+
+}
+.pilot ul li{
+    display: inline-block;
+
+}
+.fa.fa-star{
+    font-size: 30px;
+    color: #2BA481;
+}
+.fa.fa-star-o {
+     background-color: #8EC641;
+    font-size: 30px;
+    color: white;
+}
+#differ{
+    background-color: #8080809c;
+    font-size: 30px;
+    color: white;
+}
+.Mention{
+    width: 100%;
+    float: left;
+}
+
+.Lendino-one{
+     width: 20%;
+    padding: 29px 0px;
+    background: #808080;
+    float: left;
+}
+.Lendino-one h3{
+         color: white;
+    margin: 35px 29px 8px 50px;
+}
+.Lendino-one h4{
+margin: 1px 50px;
+}
+
+
+.Lendino-two{
+     padding: 26px 0px;
+    width: 20%;
+    background: #808080;
+    float: left;
+}
+.Lendino-two h3{
+             color: white;
+    margin: 11px 29px 8px 50px;
+}
+.Lendino-two h2{
+   color: #ffffff;
+    margin: 5px 45px;
+    font-size: 16px;
+}
+.Lendino-two h4{
+    margin: 8px 50px;
+}
+.address{
+    width: 100%;
+    float: left;
+}
+.add{
+    width: 25%;
+    float: left;
+    background-color: #062E38;
+    padding: 37px 0px;
+}
+.ress{
+    width: 25%;
+    float: left;
+    background-color: #062E38;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+.copy{
+     width: 25%;
+    float: left;
+    background-color: #062E38;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+.write{
+    width: 25%;
+    float: left;
+    background-color: #062E38;
+    padding: 37px 0px;
+}
+span{
+    background: #C7CF30;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 11px 15px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+.fa.fa-envelope-o{
+    margin: 0px 5px;
+    font-size: 20px;
+    color: red;
+}
